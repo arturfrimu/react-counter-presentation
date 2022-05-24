@@ -6,7 +6,7 @@ import Hero from "./Hero";
 import Content from "./Content";
 
 const links = [
-    {href: '#', className:"current", label:"Home"},
+    {href: '#', className:"", label:"Home"},
     {href: '#', className:"", label:"About"},
     {href: '#', className:"", label:"Services"},
     {href: '#', className:"", label:"Contact"},
