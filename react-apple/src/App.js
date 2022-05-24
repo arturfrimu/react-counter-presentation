@@ -1,22 +1,12 @@
 import './App.css';
 
 import React from 'react';
+import Navbar from "./Navbar";
 
 const App = () => {
     return (
         <div>
-            <nav className="nav">
-                <div className="container">
-                    <h1 className="logo"><a>My Website</a></h1>
-                    <ul>
-                        <li><a href="#" className="current">Home</a></li>
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Services</a></li>
-                        <li><a href="#">Contact</a></li>
-                    </ul>
-                </div>
-            </nav>
-
+            <Navbar/>
             <div className="hero">
                 <div className="container">
                     <h1>Welcome To My Website</h1>
